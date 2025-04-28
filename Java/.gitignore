@@ -1,8 +1,12 @@
+#Ignore IDE specific files and directories (IntelliJ IDEA)
 .idea/
 *.iml
+out/
 
+#Ignore IDE specific files and directories (Eclipse)
 .project
 .classpath
 .settings/
 
+#Ignore Maven build folder
 target/
